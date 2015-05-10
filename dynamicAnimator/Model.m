@@ -11,23 +11,38 @@
 @interface Model()
 
 
-@property (nonatomic) NSString* myName;
+@property (nonatomic) NSString* name;
+@property (nonatomic) NSArray* family;
 
 
 @end
 
 @implementation Model
 
--(NSString*) myName{
+-(NSString*) name{
     
-    if(!_myName){
+    if(!_name){
         
-        _myName = [[NSString alloc] initWithFormat:@"Bjarte Sjursen"];
+        _name = [[NSString alloc] initWithFormat:@"Robot"];
         
     }
     
-    return _myName;
+    return _name;
     
 }
+
+-(NSArray*) family{
+    
+    if(!_family){
+        
+        _family = @[@"Robot1", @"Robot2", @"Robot3", @"Robot4"];
+        
+    }
+    
+    return _family;
+    
+}
+
+
 
 @end
