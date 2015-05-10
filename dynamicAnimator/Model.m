@@ -8,6 +8,26 @@
 
 #import "Model.h"
 
+@interface Model()
+
+
+@property (nonatomic) NSString* myName;
+
+
+@end
+
 @implementation Model
+
+-(NSString*) myName{
+    
+    if(!_myName){
+        
+        _myName = [[NSString alloc] initWithFormat:@"Bjarte Sjursen"];
+        
+    }
+    
+    return _myName;
+    
+}
 
 @end
