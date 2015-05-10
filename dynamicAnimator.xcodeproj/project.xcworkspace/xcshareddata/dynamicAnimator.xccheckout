@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>D0EE2DAE-DE06-4AFC-814E-D2EFBDBAC7E7</string>
+	<key>IDESourceControlProjectName</key>
+	<string>dynamicAnimator</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>D94EB9A0FC6E6E0AB72C14433BD54350EE255D28</key>
+		<string>https://github.com/bsjurs1/Dynamic-Animator.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>dynamicAnimator.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>D94EB9A0FC6E6E0AB72C14433BD54350EE255D28</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/bsjurs1/Dynamic-Animator.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>D94EB9A0FC6E6E0AB72C14433BD54350EE255D28</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>D94EB9A0FC6E6E0AB72C14433BD54350EE255D28</string>
+			<key>IDESourceControlWCCName</key>
+			<string>dynamicAnimator</string>
+		</dict>
+	</array>
+</dict>
+</plist>
