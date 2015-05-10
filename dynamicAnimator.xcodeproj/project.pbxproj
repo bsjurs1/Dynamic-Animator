@@ -14,6 +14,7 @@
 		9149CE601AFD6364005A8C71 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9149CE5F1AFD6364005A8C71 /* Images.xcassets */; };
 		9149CE631AFD6364005A8C71 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9149CE611AFD6364005A8C71 /* LaunchScreen.xib */; };
 		9149CE6F1AFD6364005A8C71 /* dynamicAnimatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9149CE6E1AFD6364005A8C71 /* dynamicAnimatorTests.m */; };
+		91672CE11AFDF2C20098C458 /* AnimatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91672CE01AFDF2C20098C458 /* AnimatorViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		9149CE681AFD6364005A8C71 /* dynamicAnimatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dynamicAnimatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9149CE6D1AFD6364005A8C71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9149CE6E1AFD6364005A8C71 /* dynamicAnimatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = dynamicAnimatorTests.m; sourceTree = "<group>"; };
+		91672CDF1AFDF2C20098C458 /* AnimatorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AnimatorViewController.h; path = ../AnimatorViewController.h; sourceTree = "<group>"; };
+		91672CE01AFDF2C20098C458 /* AnimatorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AnimatorViewController.m; path = ../AnimatorViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +86,8 @@
 			children = (
 				9149CE561AFD6364005A8C71 /* AppDelegate.h */,
 				9149CE571AFD6364005A8C71 /* AppDelegate.m */,
+				91672CDF1AFDF2C20098C458 /* AnimatorViewController.h */,
+				91672CE01AFDF2C20098C458 /* AnimatorViewController.m */,
 				9149CE591AFD6364005A8C71 /* ViewController.h */,
 				9149CE5A1AFD6364005A8C71 /* ViewController.m */,
 				9149CE5C1AFD6364005A8C71 /* Main.storyboard */,
@@ -220,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9149CE5B1AFD6364005A8C71 /* ViewController.m in Sources */,
+				91672CE11AFDF2C20098C458 /* AnimatorViewController.m in Sources */,
 				9149CE581AFD6364005A8C71 /* AppDelegate.m in Sources */,
 				9149CE551AFD6364005A8C71 /* main.m in Sources */,
 			);
@@ -416,6 +422,7 @@
 				9149CE741AFD6364005A8C71 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9149CE751AFD6364005A8C71 /* Build configuration list for PBXNativeTarget "dynamicAnimatorTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +431,7 @@
 				9149CE771AFD6364005A8C71 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
