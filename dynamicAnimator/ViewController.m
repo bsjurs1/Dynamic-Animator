@@ -60,7 +60,7 @@ static const CGSize DROP_SIZE = {40,40};
     
 }
 
-- (IBAction)tap:(UITapGestureRecognizer *)sender {
+-(IBAction)tap:(UITapGestureRecognizer *)sender {
     
     [self drop];
     

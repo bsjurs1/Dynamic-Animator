@@ -15,6 +15,7 @@
 		9149CE631AFD6364005A8C71 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9149CE611AFD6364005A8C71 /* LaunchScreen.xib */; };
 		9149CE6F1AFD6364005A8C71 /* dynamicAnimatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9149CE6E1AFD6364005A8C71 /* dynamicAnimatorTests.m */; };
 		91672CE11AFDF2C20098C458 /* AnimatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91672CE01AFDF2C20098C458 /* AnimatorViewController.m */; };
+		918A91B71B001816000D25CB /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 918A91B61B001816000D25CB /* Model.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,8 @@
 		9149CE6E1AFD6364005A8C71 /* dynamicAnimatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = dynamicAnimatorTests.m; sourceTree = "<group>"; };
 		91672CDF1AFDF2C20098C458 /* AnimatorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AnimatorViewController.h; path = ../AnimatorViewController.h; sourceTree = "<group>"; };
 		91672CE01AFDF2C20098C458 /* AnimatorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AnimatorViewController.m; path = ../AnimatorViewController.m; sourceTree = "<group>"; };
+		918A91B51B001816000D25CB /* Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Model.h; sourceTree = "<group>"; };
+		918A91B61B001816000D25CB /* Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Model.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +93,8 @@
 				91672CE01AFDF2C20098C458 /* AnimatorViewController.m */,
 				9149CE591AFD6364005A8C71 /* ViewController.h */,
 				9149CE5A1AFD6364005A8C71 /* ViewController.m */,
+				918A91B51B001816000D25CB /* Model.h */,
+				918A91B61B001816000D25CB /* Model.m */,
 				9149CE5C1AFD6364005A8C71 /* Main.storyboard */,
 				9149CE5F1AFD6364005A8C71 /* Images.xcassets */,
 				9149CE611AFD6364005A8C71 /* LaunchScreen.xib */,
@@ -228,6 +233,7 @@
 				91672CE11AFDF2C20098C458 /* AnimatorViewController.m in Sources */,
 				9149CE581AFD6364005A8C71 /* AppDelegate.m in Sources */,
 				9149CE551AFD6364005A8C71 /* main.m in Sources */,
+				918A91B71B001816000D25CB /* Model.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
