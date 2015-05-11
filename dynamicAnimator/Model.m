@@ -23,7 +23,7 @@
     
     if(!_name){
         
-        _name = [[NSString alloc] initWithFormat:@"Robot"];
+        _name = [[NSString alloc] initWithFormat:@"Robots"];
         
     }
     
